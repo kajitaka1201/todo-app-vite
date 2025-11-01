@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://kajitaka1201.github.io/todo-app-vite/",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
