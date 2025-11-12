@@ -19,7 +19,7 @@ export default function TodoMain({ uid }: { uid: string }) {
       setTasks(newTasks);
     });
     return () => unsubscribe();
-  }, []);
+  }, [q]);
 
   const todoTasks = tasks.filter((task) => task.status === "todo");
   const doingTasks = tasks.filter((task) => task.status === "doing");
